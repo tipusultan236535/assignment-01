@@ -1,0 +1,173 @@
+/* work sans font from google */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,400;0,500;0,800;1,600&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 130px;
+}
+.nav-title{
+    text-align: center;
+font-family: Work Sans;
+font-size: 3rem;
+font-weight: 700;
+
+}
+.text-primary{
+    color: #FF42A5}
+    nav>ul{
+        display: flex;
+    }
+    nav li {
+        list-style: none;
+        margin-right: 32px;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+nav a{
+    text-decoration: none;
+    color: #3C354F;;
+}
+.banner-title{
+    color: #e646e8;
+font-size: 95px;
+font-weight: 800;
+
+}
+.play-like{
+    color: #0B0223;
+font-size: 48px;
+font-weight: 600;
+}
+.play-click{
+    align-items: center;
+    display: flex;
+    
+}
+
+.no-download{
+    align-items: center;
+    display: flex;
+   
+}
+.online-supported{
+    display: flex;
+}
+.btn{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+}
+.btn-b{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+}
+.banner-continer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px 130px;
+    linear-gradient: rgba(140, 87, 238, 0.03);
+}
+@media screen and ( max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+.body-title{
+    color: #e646e8;
+}
+.body-main{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 130px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+}
+.gamer-title-body{
+    text-align: right;
+font-size: 48px;
+font-weight: 700;
+}
+.paragraph-title{
+    color: #534C64;
+text-align: right;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.body-button{
+   
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border-radius: 48px;
+}
+.paragraph-b{
+    color: #534C64;
+text-align: right;
+font-size: 24px;
+font-weight: 500;
+line-height: 45px; 
+}
+.funny{
+color: blueviolet;
+}
+.funny-item{
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 30;
+}
+.funny-center{
+    text-align: center;}
+.manage-itme{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+.main-color{
+  color: #e646e8;
+}
+.main-div{
+    display: flex;
+    padding: 20px;
+}
+.display{
+    display: flex;
+    align-items: center;
+justify-content:center;
+text-align: justify;
+
+}
+.main-footer{
+  padding: 400px;
+   background-color: #534C64;
+   justify-content: center;
+   display: flex;
+}
+.display{
+    margin-right: 50px;
+
+}
+.grid{
+
+}
+
+    
+
