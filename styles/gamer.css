@@ -169,5 +169,53 @@ text-align: justify;
 
 }
 
-    
+/* Footer Section Design  */
 
+.footer_container {
+    background-color:#0B0223;
+    padding: 120px auto;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer_logo {
+    padding-top: 120px;
+  }
+  .footer_h1 h1{
+    color: #fff;
+  }
+  
+  .footer_li ul, .footer_link2 ul{
+    display: flex;
+    justify-content: center;
+    margin: 66px auto;
+  }
+  .footer_li li, .footer_link2 li  {
+    list-style: none;
+    margin-right: 60px;
+  }
+  
+  .footer_li li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer_link2 li a, .footer_container p {
+    color: rgba(255, 255, 255, 0.60);
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  }
+  
+  .footer_social  {
+    display: flex;
+    justify-content: center;
+  }
+  .footer_social svg {
+    margin-right: 40px;
+  }
+  
+  .footer_container p {
+    padding-bottom: 120px;
+  }
+  
